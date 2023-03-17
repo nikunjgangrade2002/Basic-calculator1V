@@ -60,7 +60,7 @@ class Poly {
 
   private Map<String, Integer> terms = new HashMap<>();
 
-  // E.g. merge("a*b", "a*c") -> "a*a*b*c"
+  // E.g. can be taken as merge("a*b", "a*c") -> "a*a*b*c"
   private static String merge(final String a, final String b) {
     if (a.equals("1"))
       return b;
