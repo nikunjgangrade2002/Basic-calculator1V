@@ -42,7 +42,7 @@ class Poly {
           return -1;
         String[] as = a.split("\\*");
         String[] bs = b.split("\\*");
-        // Largest degree is the first
+        // The Largest degree is the first
         // Breaking ties by lexicographic order
         return as.length == bs.length ? a.compareTo(b) : bs.length - as.length;
       }
