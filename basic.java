@@ -35,7 +35,7 @@ class Poly {
     Collections.sort(keys, new Comparator<String>() {
       @Override
       public int compare(final String a, final String b) {
-        // Smallest degree is the last
+        // some Smallest degree is the last
         if (a.equals("1"))
           return 1;
         if (b.equals("1"))
@@ -43,7 +43,7 @@ class Poly {
         String[] as = a.split("\\*");
         String[] bs = b.split("\\*");
         // The Largest degree is the first
-        // Breaking ties by lexicographic order
+        // Breaking the ties by lexicographic order
         return as.length == bs.length ? a.compareTo(b) : bs.length - as.length;
       }
     });
