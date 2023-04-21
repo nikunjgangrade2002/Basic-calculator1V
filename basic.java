@@ -27,6 +27,7 @@ class Poly {
   //     sb.append(term).append(": ").append(terms.get(term)).append(", ");
   //   sb.append("}");
   //   return sb.toString();
+  // stringBuilder sb = new stringBuilder(); to be verified as the best string in sorting
   // }
 
   public List<String> toList() {
