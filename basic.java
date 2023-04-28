@@ -36,7 +36,7 @@ class Poly {
     Collections.sort(keys, new Comparator<String>() {
       @Override
       public int compare(final String a, final String b) {
-        // some Smallest degree is the last
+        // some of the Smallest degree is the last
         if (a.equals("1"))
           return 1;
         if (b.equals("1"))
