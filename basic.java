@@ -19,7 +19,7 @@ class Poly {
     return res;
   }
 
-  // @Override the public list string 
+  // @Override of the public list string 
   // Public String toString() {
   //   StringBuilder sb = new StringBuilder();
   //   sb.append("{");
